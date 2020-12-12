@@ -3,7 +3,8 @@ Toy for base64 encode/decode
 
 ## TODO
 - [ ] Output something like "<decoded STRING> -> <STRING> -> <encoded STRING>"
-- [ ] Live edit on same line
+- [ ] Handle output longer than `$COLS` gracefully
+- [x] Live edit on same line
     - [x] Handle backspaces
-    - [ ] newline starts over
-    - [ ] shift+newline starts from copy
+    - [x] Ctrl+Backspace starts over
+    - [x] newline starts from copy
